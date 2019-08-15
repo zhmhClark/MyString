@@ -26,5 +26,7 @@ public:
 	bool operator>(const MyString& right) const { return  right > *this ; }
 	bool operator<=(const MyString& right) const { return !( *this > right ); }
 	bool operator>=(const MyString& right) const { return !( *this < right ); }
+	//ÐÂÔö
+	void add(char c);
 };    
 

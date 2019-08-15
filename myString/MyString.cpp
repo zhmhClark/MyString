@@ -69,8 +69,19 @@ const MyString& MyString::operator+=(const MyString& right)
 	s = new char[length + 1];
 	strcpy(s, temp);
 	strcat(s, right.s);
-	delete[] temp;;
+	delete[] temp;
 	return *this;
+}
+
+void MyString::add(char c)
+{
+	char cStr[2] = { c,'\0' };
+	char* temp = s;
+	char* newS = new char[length + 2];
+	strcpy(newS, cStr);
+	strcat(newS, s);
+	s = newS;
+	delete[] temp;
 }
 
 ostream& operator<<(ostream& out, const MyString& str)
