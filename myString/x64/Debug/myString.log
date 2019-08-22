@@ -1,0 +1,6 @@
+﻿  MyString.cpp
+C:\Users\cprimer\source\repos\myString\myString\MyString.h(4,1): warning C4005:  “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+C:\Users\cprimer\source\repos\myString\myString\MyString.h(4,1): warning C4005: C:\Users\cprimer\source\repos\myString\myString\MyString.cpp: note: 参见“_CRT_SECURE_NO_WARNINGS”的前一个定义
+C:\Users\cprimer\source\repos\myString\myString\MyString.cpp(13,21): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\cprimer\source\repos\myString\myString\MyString.cpp(28,23): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+  myString.vcxproj -> C:\Users\cprimer\source\repos\myString\x64\Debug\myString.exe

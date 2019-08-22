@@ -1,4 +1,5 @@
-   #include "MyString.h"
+#include "MyString.h"
+#define _CRT_SECURE_NO_WARNINGS
 
 void MyString::setMyString(const char* str)
 {
@@ -24,7 +25,7 @@ MyString::MyString(const char*str)
 	}
 	else
 	{
-		length = strlen(s);
+		length = strlen(str);
 		s = new char[length + 1];
 		strcpy(s, str);
 	}

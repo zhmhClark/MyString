@@ -1,6 +1,8 @@
 #pragma once
 #include<iostream>
 #include<cstring>
+#define _CRT_SECURE_NO_WARNINGS
+
 using namespace std;
 class MyString
 {
